@@ -89,8 +89,4 @@ In hybrid inheritance, a class is derived from two classes as in multiple inheri
    the “animal” class and “bat” class is inherited from “mammal” and “bird” classes which means 
    that “mammal” and “bird” classes can now implement the functionalities of “animal” class and
     “bat” class can now implement the functionalities of “mammal” and “bird” classes.
-
- 
- 
- 
  */
