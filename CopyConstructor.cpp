@@ -9,8 +9,8 @@ class number{
     number(int value){  
      a=value;
     }
-    //copy constructor : if object is passed in a constructor such that its value gets saved
-    // as copy in another object.
+    /*Copy constructor : if object is passed in a constructor such that its value gets saved
+     as copy in another object.*/
     number(number &obj){ //reference of  object
         cout<<"this is a copy constructor"<<endl;
         a = obj.a; //y.a
