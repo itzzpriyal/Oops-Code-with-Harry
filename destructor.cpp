@@ -2,6 +2,7 @@
 using namespace std;
 int count=0;//GLOBAL VARIABLE
 /*never takes any argument nor does it return any value
+//DESTRUCTORS MAIN USE IS TO FREE THE DYNAMIC MEMORY BEING ALLOCATED TO OBJECTS AS SOON AS THEIR SCOPE FINISHES
 destructors are used to destroy the memory which was being used by the object*/
 
 class num{
