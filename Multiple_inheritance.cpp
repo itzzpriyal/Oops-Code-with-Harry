@@ -45,5 +45,8 @@ derived Object;
 Object.base1_get();
 Object.base2_get();
 Object.show();
+// pro_object.base_no1;  ------>will show error as its protected data
+// Object.base_no1;   ------>will show error as its  still protected data even after inheritance
+    
 return 0;
 }
