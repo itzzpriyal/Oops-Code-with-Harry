@@ -6,7 +6,10 @@ SYNTAX:
 ########################################################################
 #     class derived:(visibility_mode) base1,(visibility_mode) base2 {} #
 #                                                                      #
-########################################################################                  */
+########################################################################                  
+if you have more than 2 bases then also syntax remains same u can 
+just edit a comma(,)---> ,(visibility_mode) base3,(visibility_mode) base4 and so on*/
+
 class base1{
     protected:
     int base_no1;
