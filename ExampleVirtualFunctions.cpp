@@ -14,7 +14,10 @@ public:
         title = s;
         rating = r;
     }
-    virtual void display() {}//as we had made display function virtual therefore the display function of the class to which object belongs will work
+ //if we didnt use VIRTUAL KEYWORD THEN (Just coffee. Black - like my soul)will be printed as the pointer is of tmi type
+    virtual void display() {
+        cout<<"Just coffee. Black - like my soul- clary"<<endl;
+    }//as we had made display function virtual therefore the display function of the class to which object belongs will work
 };
 class tmibones : public tmi
 {
