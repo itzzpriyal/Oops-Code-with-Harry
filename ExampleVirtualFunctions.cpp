@@ -92,3 +92,10 @@ int main()
 
     return 0;
 }
+/*
+Rules for virtual functions
+@They cannot be static
+@They are accessed by object pointers
+@Virtual functions can be a friend of another class
+@A virtual function in the base class might not be used.
+@If a virtual function is defined in a base class, there is no necessity of redefining it in the derived class*/
