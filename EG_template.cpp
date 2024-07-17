@@ -1,4 +1,5 @@
 #include<iostream>
+//eg of template 
 using namespace std;
 template <class T> //whereever we want to use custom data type there we will write "T"
 class vector {
