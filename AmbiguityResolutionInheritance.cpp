@@ -1,4 +1,4 @@
-/*  
+/* AMBIGUITY
 Ambiguity in inheritance can be defined as when one class 
 is derived for two or more base classes then there are
  chances that the base classes have functions with the 
