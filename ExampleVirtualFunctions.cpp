@@ -92,7 +92,7 @@ int main()
 
     return 0;
 }
-/*
+/* 
 Rules for virtual functions
 @They cannot be static
 @They are accessed by object pointers
